@@ -1,0 +1,20 @@
+input {
+    padding: 2vh;
+    background: transparent;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+}
+
+.box {
+    padding: 2vh;
+}
+
+@media only screen and (orientation: landscape) {
+    .box {
+        position: absolute;
+        right: 0;
+    }
+  }
